@@ -5,6 +5,8 @@ import ThreeStepRemoval from "../components/ThreeStepRemoval";
 import BgSlider from "../components/BgSlider";
 import Testimonials from "../components/Testimonials";
 import Magic from "../components/Magic";
+import Footer from "../components/Footer";
+import Gallery from "../components/Gallery";
 const Home = () => {
   return (
     <div>
@@ -15,6 +17,8 @@ const Home = () => {
       <BgSlider />
       <Testimonials />
       <Magic />
+      <Gallery />
+      <Footer />
     </div>
   );
 };
