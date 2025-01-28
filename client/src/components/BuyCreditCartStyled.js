@@ -100,17 +100,28 @@ export const ButtonContainer = styled.div`
 `;
 
 export const Button = styled.button`
-  padding: 1rem 2rem 1rem 2rem;
+  padding: 1rem 2.1rem;
   outline: none;
-  border: 1px solid #eeeeee;
-  border-radius: 5px;
+  border: 1px solid #f0f0f0;
+  border-radius: 25px;
   background-color: #ffffff;
-  font-size: 1.5rem;
+  font-size: 1.4rem;
   font-weight: 500;
+  color: #000000;
+  opacity: 1;
   cursor: pointer;
   width: 80%;
+  /* background-color: ${(props) =>
+    props.basic === "white"
+      ? "white"
+      : props.pro === "green"
+      ? "green"
+      : props.business === "red"
+      ? "red"
+      : "black"}; */
   &:hover {
-    background-color: #e6e6e6;
+    opacity: 0.9;
     transition: all 0.3s;
+    background-color: #f0f0f0;
   }
 `;

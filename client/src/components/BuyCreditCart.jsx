@@ -20,6 +20,7 @@ import {
 } from "./BuyCreditCartStyled";
 
 const BuyCreditCart = (props) => {
+  const { color } = props.bgColor;
   return (
     <Container>
       <ContainerSpanB>
@@ -61,6 +62,7 @@ const BuyCreditCart = (props) => {
         </ContainerThree>
         <ButtonContainer>
           <Button>{props.button}</Button>
+          {/* style={{ backgroundColor: color }} */}
         </ButtonContainer>
       </MiddleContainer>
     </Container>
