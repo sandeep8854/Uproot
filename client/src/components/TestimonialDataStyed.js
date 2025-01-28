@@ -1,7 +1,8 @@
 import styled from "styled-components";
 
 export const Container = styled.div`
-  box-shadow: 0 5px 25px 2px rgba(0, 0, 0, 0.11);
+  /* box-shadow: 0 5px 25px 2px rgba(0, 0, 0, 0.11); */
+  border: 1px solid #f0f0f0;
   border-radius: 7px;
   padding: 1rem 0.8rem;
   flex: 1;
@@ -14,12 +15,12 @@ export const Divvv = styled.div`
   display: flex;
   align-items: flex-start;
   justify-content: flex-start;
-  gap: 1.6rem;
+  gap: 0.6rem;
 `;
 
 export const ParagraphStar = styled.span`
   font-size: 2rem;
-  color: green;
+  color: #ffd700;
 `;
 
 export const HeadingFour = styled.h4`
@@ -36,7 +37,7 @@ export const ProfileContainer = styled.div`
   display: flex;
   justify-content: flex-start;
   gap: 1.5rem;
-  margin-top: 1rem;
+  margin-top: 2rem;
 `;
 
 export const ProfileOnly = styled.div``;

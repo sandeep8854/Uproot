@@ -67,7 +67,7 @@ const Testimonials = () => {
           <TestimonialData
             rating={<IoMdStar />}
             sentance="Suitable photos for my website"
-            text="I love being able to remove backgrounds from my pictures. I sell online, and when I take pictures, it's not always in a clean, uncluttered environment. I like how Uproot gets rid of all of that and allows me to change the background to something more pleasing to the eye and suitable to place on my website.."
+            text="I love being able to remove backgrounds from my pictures. I sell online, and when I take pictures, it's not always in a clean. I like how Uproot gets rid of all of that and allows me to change the background to something more pleasing to the eye and suitable to place on my website."
             profilePhoto={assets.img2}
             name="Divyani Gootam"
             desination="Reseller on eBay"

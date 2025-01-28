@@ -1,5 +1,5 @@
-import LogoImg from "../assets/logo.png";
-import BuyCredit from "../pages/BuyCredit.jsx";
+import { assets } from "../assets/assets.js";
+import { useClerk, UserButton, useUser } from "@clerk/clerk-react";
 import {
   Header,
   Nav,
@@ -7,12 +7,17 @@ import {
   LogoImage,
   NavLink,
   UnorderList,
+  Button,
 } from "./NavbarStyled.js";
+import { MdKeyboardArrowDown } from "react-icons/md";
+
 const Navbar = () => {
+  const { openSignIn } = useClerk();
+  const { isSignedIn, user } = useUser();
   return (
     <Header>
       <NavLink to="/">
-        <LogoImage src={LogoImg} alt="Uproot logo"></LogoImage>
+        <LogoImage src={assets.whiteLogo} alt="Uproot logo"></LogoImage>
       </NavLink>
 
       {/* nabvar */}
@@ -23,18 +28,26 @@ const Navbar = () => {
           </List>
           <List>
             <NavLink to="f/features">Features</NavLink>
+            <MdKeyboardArrowDown size={15} />
           </List>
           <List>
             <NavLink to="b/forbusiness">For Business</NavLink>
+            <MdKeyboardArrowDown size={15} />
           </List>
           <List>
-            <NavLink to="/p/pricing">Pricing</NavLink>
+            <NavLink to="p/pricing">Pricing</NavLink>
           </List>
-          <List>
-            <NavLink className="buttonDesing" to="g/getstarted">
-              Get started
-            </NavLink>
-          </List>
+          {isSignedIn ? (
+            <div>
+              {" "}
+              <UserButton />
+            </div>
+          ) : (
+            <List>
+              <Button onClick={() => openSignIn({})}>Get started</Button>
+              {/* openSignIn is Cleark inbuild functionfunction */}
+            </List>
+          )}
         </UnorderList>
       </Nav>
 

@@ -69,7 +69,7 @@ export const ParaSpan = styled.p`
 
 export const Span1 = styled.span`
   font-size: 1.5rem;
-  color: green;
+  color: red;
   font-weight: 1000;
   padding-bottom: 0.5rem;
 `;
@@ -82,7 +82,7 @@ export const ParaStar = styled.p`
   gap: 0.7rem;
   font-size: 1.2rem;
   font-weight: 1000 !important;
-  color: green;
+  color: #ffd700;
 `;
 
 export const DivHrTwo = styled.div`
