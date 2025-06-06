@@ -87,8 +87,22 @@ export const ContainerThree = styled.div`
   margin-bottom: 1rem;
 `;
 
-export const ImageTick = styled.img``;
+export const ImageTick = styled.img`
+  width: 2rem;
+  height: 2rem;
+  /* filter: invert(28%) sepia(67%) saturate(747%) hue-rotate(100deg)
+    brightness(100%) contrast(90%); */
 
+  /* filter: invert(50%) sepia(100%) saturate(3.5) hue-rotate(45deg);/* */
+  /* total  green */
+
+  /* filter: grayscale(1);*/
+  /* filter: hue-rotate(100deg); */
+`;
+export const ImageClose = styled.img`
+  width: 1.8rem;
+  height: 1.8rem;
+`;
 export const SpanSix = styled.span`
   font-size: 1.4rem;
 `;

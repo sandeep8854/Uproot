@@ -6,6 +6,7 @@ import {
   ContainerThree,
   ContainerTwo,
   HeadingOne,
+  ImageClose,
   ImageTick,
   LogoContainer,
   MiddleContainer,
@@ -45,21 +46,45 @@ const BuyCreditCart = (props) => {
       </ContainerTwo>
       <MiddleContainer>
         <ContainerThree>
-          <ImageTick src={props.tickOne} alt="corrent sign are not found!" />
+          <ImageTick src={props.tickOne} alt="current sign are not found!" />
           <SpanSix>{props.pointOne}</SpanSix>
         </ContainerThree>
         <ContainerThree>
-          <ImageTick src={props.tickTwo} alt="corrent sign are not found!" />
+          <ImageTick src={props.tickTwo} alt="current sign are not found!" />
           <SpanSix>{props.pointTwo}</SpanSix>
         </ContainerThree>
         <ContainerThree>
-          <ImageTick src={props.tickThree} alt="corrent sign are not found!" />
+          <ImageTick src={props.tickThree} alt="current sign are not found!" />
           <SpanSix>{props.pointThree}</SpanSix>
         </ContainerThree>
         <ContainerThree>
-          <ImageTick src={props.tickFour} alt="corrent sign are not found!" />
+          <ImageTick src={props.tickFour} alt="current sign are not found!" />
           <SpanSix>{props.pointFour}</SpanSix>
         </ContainerThree>
+        <ContainerThree>
+          <ImageTick src={props.tickFive} alt="current sign are not found!" />
+          <SpanSix>{props.pointFive}</SpanSix>
+        </ContainerThree>
+        <ContainerThree>
+          <ImageClose src={props.closeOne} alt="current sign are not found!" />
+          <SpanSix>{props.pointCloseOne}</SpanSix>
+        </ContainerThree>
+        <ContainerThree>
+          <ImageClose src={props.closeTwo} alt="current sign are not found!" />
+          <SpanSix>{props.pointCloseTwo}</SpanSix>
+        </ContainerThree>
+        <ContainerThree>
+          <ImageClose
+            src={props.closeThree}
+            alt="current sign are not found!"
+          />
+          <SpanSix>{props.pointCloseThree}</SpanSix>
+        </ContainerThree>
+        <ContainerThree>
+          <ImageClose src={props.closeFour} alt="current sign are not found!" />
+          <SpanSix>{props.pointCloseFour}</SpanSix>
+        </ContainerThree>
+        {/* button */}
         <ButtonContainer>
           <Button>{props.button}</Button>
           {/* style={{ backgroundColor: color }} */}

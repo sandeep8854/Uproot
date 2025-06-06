@@ -26,7 +26,8 @@ import window from "./window.svg";
 import rbackground from "./remove_background.svg";
 import temp_1 from "./temp_1.jpg";
 import temp_2 from "./temp_2.jpg";
-import tick from "./tick.svg";
+import tick from "./tick.png";
+import close from "./close.png";
 import whiteLogo from "./logo_without_background.png";
 import media_1 from "./media_1.png";
 import media_2 from "./media_2.png";
@@ -57,6 +58,12 @@ import gal_15 from "./gal_15.jpg";
 import gal_16 from "./gal_16.jpg";
 import gal_17 from "./gal_17.jpg";
 import hifive from "./hifive.svg";
+import bg_1 from "./bg-1.webp";
+import bg_2 from "./bg-2.webp";
+import bg_3 from "./bg-3.webp";
+import bg_4 from "./bg-4.webp";
+import bg_5 from "./bg-5.webp";
+import bg_6 from "./bg-6.webp";
 
 export const assets = {
   logo,
@@ -88,6 +95,7 @@ export const assets = {
   temp_1,
   temp_2,
   tick,
+  close,
   whiteLogo,
   media_1,
   media_2,
@@ -118,4 +126,10 @@ export const assets = {
   gal_16,
   gal_17,
   hifive,
+  bg_1,
+  bg_2,
+  bg_3,
+  bg_4,
+  bg_5,
+  bg_6,
 };

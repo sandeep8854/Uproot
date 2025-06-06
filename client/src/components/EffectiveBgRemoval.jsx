@@ -41,7 +41,7 @@ const EffectiveBgRemoval = () => {
               No matter if you want to make a background transparent (PNG), add
               a white background to a photo, extract or isolate the subject, or
               get the cutout of a <br />
-              photo - you can do all this and more with remove.bg, the AI
+              photo - you can do all this and more with Uproot, the AI
               background <br />
               remover for professionals.
             </ParagraphP>
