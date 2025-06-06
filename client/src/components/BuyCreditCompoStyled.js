@@ -56,3 +56,15 @@ export const CartContainerOnTop = styled.div`
   gap: 2rem;
   margin-top: 4rem;
 `;
+
+export const NoteContainer = styled.div`
+  margin: 4.8rem 0 1.8rem 0;
+  font-size: 1.7rem;
+  background-color: #e6d9c0;
+  padding: 2rem 1rem;
+  border-radius: 4px;
+  color: #898989;
+`;
+// export const NoteSup = styled.sup``;
+export const SpanPointOne = styled.span``;
+export const SpanPointTwo = styled.span``;
