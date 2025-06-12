@@ -8,6 +8,7 @@ import AboutUs from "./pages/AboutUs";
 import Contact from "./pages/Contact";
 import Advertisement from "./pages/Advertisement";
 import Privacy from "./pages/Privacy";
+import HiringPage from "./pages/HiringPage";
 
 export const App = () => {
   return (
@@ -18,6 +19,7 @@ export const App = () => {
         <Route path="/r/removeBg" element={<Background />} />
         <Route path="/result" element={<Result />} />
         <Route path="/p/pricing" element={<BuyCredit />} />
+        <Route path="/careers" element={<HiringPage />} />
         <Route path="/about-us" element={<AboutUs />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/advertisement" element={<Advertisement />} />

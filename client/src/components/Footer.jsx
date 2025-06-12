@@ -9,6 +9,7 @@ import {
   Fliker,
   FollowUs,
   FooterContainer,
+  HiringContainer,
   ImageMedia,
   Input,
   Label,
@@ -194,6 +195,9 @@ const Footer = () => {
                 </TextContainer>
               </NavLink>
             </BlogContainer>
+            <HiringContainer>
+              <NavLink to="/careers">We are hiring!</NavLink>
+            </HiringContainer>
           </MiddleSide>
           {/* Right side */}
           <RightSIde>

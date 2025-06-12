@@ -64,8 +64,37 @@ import bg_3 from "./bg-3.webp";
 import bg_4 from "./bg-4.webp";
 import bg_5 from "./bg-5.webp";
 import bg_6 from "./bg-6.webp";
-
+import careers_1 from "./careers_1.avif";
+import careers_2 from "./careers_2.avif";
+import careers_3 from "./careers_3.avif";
+import careers_4 from "./careers_4.avif";
+import careers_5 from "./careers_5.avif";
+import careers_6 from "./careers_6.avif";
+import careers_7 from "./careers_7.avif";
+import careers_8 from "./careers_8.avif";
+import careers_9 from "./careers_9.avif";
+import careers_10 from "./careers_10.avif";
+import careers_11 from "./careers_11.avif";
+import careers_12 from "./careers_12.avif";
+import careers_13 from "./careers_13.avif";
+import careers_14 from "./careers_14.avif";
+import careers_15 from "./careers_15.avif";
 export const assets = {
+  careers_1,
+  careers_2,
+  careers_3,
+  careers_4,
+  careers_5,
+  careers_6,
+  careers_7,
+  careers_8,
+  careers_9,
+  careers_10,
+  careers_11,
+  careers_12,
+  careers_13,
+  careers_14,
+  careers_15,
   logo,
   hero,
   shopify,

@@ -181,7 +181,14 @@ export const Span = styled.span`
   font-size: 1.2rem;
   color: #fff;
 `;
-
+export const HiringContainer = styled.div`
+  margin-top: 2rem;
+  a {
+    text-decoration: none;
+    color: #fa3399;
+    font-size: 1.8rem;
+  }
+`;
 export const RightSIde = styled.div`
   flex: 1;
 `;
